@@ -1,0 +1,110 @@
+
+/*click on bios styling */
+.gallery-item p {
+position: absolute;
+display: block;
+width: 200px;
+height: 200px;
+top:  0px;
+left: 0px;
+z-index: 1;
+color: white;
+font-size: 15px;
+align: left;
+padding: 10px;
+}
+
+.imgcontain:hover p {
+z-index: 3; 
+}
+
+#title {
+	text-align: left;
+	padding-left: 20px;
+	text-decoration: none;
+	color: black;
+}
+
+h2 {
+	font-size: 20px;
+	text-align: left;
+	padding-left: 20px;
+	text-decoration: none;
+	color: black;
+}
+
+a:link {
+    text-decoration: none;
+	color: black;
+}
+
+a:visited {
+    text-decoration: none;
+	color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+	color: black;
+}
+
+a:active {
+    text-decoration: underline;
+	color: black;
+}
+
+/*All Dogs Listing grid layout styling*/
+
+.wrapper {
+    width: 100%;
+    max-width: 960px;
+    margin: 5em auto;
+}
+
+.gallery-item {
+    height: auto;
+    margin-bottom: 2em;
+    position: relative;
+}
+
+.gallery-item img {
+    width: 100%;
+}
+
+
+.img-title {
+    position: absolute;
+    top: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+   
+    display: none; 
+    background-color: #EDEDF4;
+}
+
+    .img-title h5 {
+        position: absolute;
+        color: #fff;
+        top: 33%;
+        width: 100%;
+        text-align: center;
+		font-size: 25px;
+		text-decoration: underline;
+    }
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
